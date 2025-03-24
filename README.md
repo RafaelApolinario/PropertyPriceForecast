@@ -110,9 +110,6 @@ docker-compose up --build
 - A versão usada do `scikit-learn` no treinamento foi **1.3.0**
 - Recomendado manter essa mesma versão para compatibilidade com os modelos `.pkl`
 
-Bora deixar esse projeto redondo, Rafael! 👊  
-Você já está com uma estrutura bem organizada. Agora vamos criar dois arquivos essenciais:
-
 
 
 ## 🛠️ TODOs
