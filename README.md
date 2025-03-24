@@ -20,15 +20,30 @@ API para previsão de preços de imóveis, usando modelos treinados com aprendiz
 
 ```
 PropertyPriceForecast/
-├── data/              # Dados brutos e processados
-├── models/            # Modelos treinados (.pkl)
-├── notebooks/         # Análises exploratórias e treinamento
-├── src/api/           # Código da API Flask
-├── tests/             # (Reservado para testes)
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-└── README.md
+│
+├── data/                        # Dados usados no projeto
+│   ├── raw/                     # Dados brutos (originais)
+│   └── processed/               # Dados limpos e tratados
+│
+├── models/                      # Modelos treinados (.pkl)
+│
+├── notebooks/                   # Notebooks Jupyter com EDA e modelagem
+│   └── 01-eba.ipynb             # Notebook principal do projeto
+│
+├── src/                         # Código fonte da aplicação
+│   └── api/                     # API Flask
+│       ├── app.py               # Arquivo principal da API
+│       ├── schemas.py           # (Opcional) Estruturas de dados para validação
+│       ├── preprocess.py        # Lógica de pré-processamento
+│       └── train_model.py       # Treinamento de modelos
+│
+├── tests/                       # Scripts e arquivos de testes (em desenvolvimento)
+│
+├── Dockerfile                   # Dockerfile para construção da imagem da API + Jupyter
+├── docker-compose.yml           # Orquestração do container com Docker Compose
+├── requirements.txt             # Dependências do projeto
+└── README.md                    # Documentação do projeto
+
 ```
 
 ---
