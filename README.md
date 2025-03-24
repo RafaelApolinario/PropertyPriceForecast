@@ -14,11 +14,9 @@ API para previsão de preços de imóveis, usando modelos treinados com aprendiz
 - 🐳 Docker + Docker Compose integrados
 - 📁 Organização limpa e modular
 
----
+## 📁 Estrutura do Projeto
 
-## 🗂️ Estrutura do Projeto
-
-```
+```plaintext
 PropertyPriceForecast/
 │
 ├── data/                        # Dados usados no projeto
@@ -43,10 +41,7 @@ PropertyPriceForecast/
 ├── docker-compose.yml           # Orquestração do container com Docker Compose
 ├── requirements.txt             # Dependências do projeto
 └── README.md                    # Documentação do projeto
-
 ```
-
----
 
 ## ▶️ Como executar localmente
 
