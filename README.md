@@ -110,14 +110,4 @@ docker-compose up --build
 - A versão usada do `scikit-learn` no treinamento foi **1.3.0**
 - Recomendado manter essa mesma versão para compatibilidade com os modelos `.pkl`
 
----
-
-## 🛠️ TODOs
-
-- [ ] Adicionar testes automatizados em `tests/`
-- [ ] Melhorar documentação do notebook
-- [ ] Criar pipeline para treinar novos modelos automaticamente
-
----
-
 Feito com 💻 por Rafael.
