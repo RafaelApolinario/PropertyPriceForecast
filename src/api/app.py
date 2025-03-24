@@ -4,7 +4,9 @@ import pandas as pd
 
 app = Flask(__name__)
 
-MODELO_PATH = '../../models/modelo_ridge.pkl'
+# MODELO_PATH = '../../models/modelo_ridge.pkl'
+MODELO_PATH = 'models/modelo_rf.pkl'
+
 
 modelo_completo = joblib.load(MODELO_PATH)
 model = modelo_completo['modelo']
@@ -77,4 +79,4 @@ def index():
     })
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=5005, debug=True)

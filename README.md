@@ -60,7 +60,7 @@ python src/api/app.py
 ```
 
 3. Acesse:
-- API: [http://localhost:5000](http://localhost:5000)
+- API: [http://localhost:5005](http://localhost:5005)
 - Rota de teste: `/`  
 - Rota de predição: `/predict` (método POST)
 
@@ -76,7 +76,7 @@ docker-compose up --build
 ```
 
 3. Acesse:
-- API: [http://localhost:5000](http://localhost:5000)
+- API: [http://localhost:5005](http://localhost:5005)
 - Jupyter: [http://localhost:8888](http://localhost:8888)
 
 ---
@@ -85,7 +85,7 @@ docker-compose up --build
 
 ```json
 {
-  "area": 5000,
+  "area": 5005,
   "area_per_bathroom": 2500,
   "bathrooms": 2,
   "area_per_bedroom": 1666.67,
