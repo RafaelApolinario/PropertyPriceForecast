@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode / IDE
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Virtual envs
+env/
+.venv/
+venv/
+ENV/
+
+# Dados temporários ou sensíveis
+*.db
+*.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.tar
+docker-compose.override.yml
+
+# Windows
+*.bak
+~$*

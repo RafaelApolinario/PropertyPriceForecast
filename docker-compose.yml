@@ -1,9 +1,13 @@
 version: '3.8'
+
 services:
   api:
     build: .
     ports:
       - "5000:5000"
+      - "8888:8888"
     volumes:
       - ./models:/app/models
+      - ./data:/app/data
+      - ./notebooks:/app/notebooks
     restart: always
